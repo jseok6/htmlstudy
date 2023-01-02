@@ -12,9 +12,23 @@
     <select name="city" id="city">
         <option value="0">강북구</option>
         <option value="1">강남구</option>
-        <option value="2">서초구</option>
+        <option value="2" selected>서초구</option>
         <option value="3">중원구</option>
         <option value="4">분당구</option>
       </select>
+      <select name="city" id="city" size="3">
+        <optgroup label="서울시">
+          <option value="강북구">강북구</option>
+          <option value="강남구">강남구</option>
+          <option value="서초구">서초구</option>
+        </optgroup>
+        <optgroup label="경기도 성남시">
+          <option value="중원구">중원구</option>
+          <option value="분당구">분당구</option>
+        </optgroup>
+      </select>
+      <button>클릭</button>
+      <input type="text" value="아이디" disabled>
+      <input type="text" value="아이디" readonly>
 </body>
 </html>
